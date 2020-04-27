@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>SUITS QUIZ!!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main_temp.js"></script>
+
+</head>
+
+
+<body>
+<h1 style="color:white">Which Suit's Character are YOU!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p style="color:black;font-size:30px;" class = "questions" align="left">  1)  A hairdo that you find fascinating?</p>
+
+<div class="row">
+  <div class="column">
+    <input type="radio" id="mc" name="question1" value="h" checked>
+    <img src="img/h1_i.jpg" alt="Snow" height="200" width="200">
+    <input type="radio" id="mc" name="question1" value="m" checked>
+    <img src="img/m1_i.png" alt="Snow" height="200" width="200">
+  </div>
+  <div class="column">
+    <input type="radio" id="mc" name="question1" value="j" checked>
+    <img src="img/j1_i.jpg" alt="Forest" heigth="200" width="200">
+    <input type="radio" id="mc" name="question1" value="d" checked>
+    <img src="img/d1_i.jpg" alt="Forest" heigth="210" width="220">
+  </div>
+  <div class="column">
+    <input type="radio" id="mc" name="question1" value="l" checked>
+    <img src="img/l1_i.jpg" alt="Mountains" heigth="200" width="200">
+    <input type="radio" id="mc" name="question1" value="r" checked>
+    <img src="img/r1_i.jpg" alt="Mountains" heigth="200" width="210">
+  </div>
+</div>
+
+<p style="color:black;font-size:30px;" class = "questions" align="left">  2) Pick an activity that pleases you the most</p>
+<div class="row">
+  <div class="column">
+    <input type="radio" id="mc" name="question2" value="h" checked>
+    <img src="img/h2_i.jpg" alt="Snow" heigth="200" width="200">
+    <input type="radio" id="mc" name="question2" value="m" checked>
+    <img src="img/m2_i.jpg" alt="Snow" heigth="200" width="200">
+  </div>
+  <div class="column">
+    <input type="radio" id="mc" name="question2" value="j" checked>
+    <img src="img/j2_i.png" alt="Forest" heigth="200" width="240">
+    <input type="radio" id="mc" name="question2" value="d" checked>
+    <img src="img/d2_i.jpg" alt="Forest" heigth="200" width="200">
+  </div>
+  <div class="column">
+    <input type="radio" id="mc" name="question2" value="l" checked>
+    <img src="img/l2_i.jpg" alt="Mountains" heigth="220" width="230">
+    <input type="radio" id="mc" name="question2" value="r" checked>
+    <img src="img/r2_i.jpg" alt="Mountains" heigth="200" width="220">
+  </div>
+</div>
+
+
+<p style="color:black;font-size:30px;" class = "questions" align="left">  3) A quote that sweeps you off your feet?</p>
+<input type = "radio" id = "mc" name = "question3" value = "h">“I don't play the odds I play the man.”<br>
+<input type = "radio" id = "mc" name = "question3" value = "m">"You and I. We're Batman and Robin"<br>
+<input type = "radio" id = "mc" name = "question3" value = "j">"I do not respond to threats."<br>
+<input type = "radio" id = "mc" name = "question3" value = "d">"I'm sorry I don't have a photographic memory but my brain is too busy being awesome."<br>
+<input type = "radio" id = "mc" name = "question3" value = "l">“Give me a mountain – I'll climb it. Give me a Katy Perry song – I'll sing it."<br>
+<input type = "radio" id = "mc" name = "question3" value = "r">"I don't always do what people expect me to do"<br>
+
+
+
+<p style="color:black;font-size:30px;" class = "questions" align="left">  4) Your go-to outfit for any good day?</p>
+
+<div class="row">
+  <div class="column">
+    <input type="radio" id="mc" name="question4" value="h" checked>
+    <img src="img/h4_i.jpg" alt="Snow" heigth="200" width="200">
+    <input type="radio" id="mc" name="question4" value="m" checked>
+    <img src="img/m4_i.png" alt="Snow" heigth="200" width="200" align="bottom">
+  </div>
+  <div class="column">
+    <input type="radio" id="mc" name="question4" value="j" checked>
+    <img src="img/j4_i.png" alt="Forest" heigth="200" width="200">
+    <input type="radio" id="mc" name="question4" value="d" checked>
+    <img src="img/d4_i.png" alt="Forest" heigth="200" width="200" align="bottom">
+  </div>
+  <div class="column">
+    <input type="radio" id="mc" name="question4" value="l" checked>
+    <img src="img/l4_i.jpg" alt="Mountains" heigth="200" width="200">
+    <input type="radio" id="mc" name="question4" value="r" checked>
+    <img src="img/r4_i.png" alt="Mountains" heigth="200" width="200" align="bottom">
+  </div>
+</div>
+
+
+<p style="color:black;font-size:30px;" class = "questions" align="left">  5) What describes you the best?</p>
+<input type = "radio" id = "mc" name = "question5" value = "h">"Charismatic and cool"<br>
+<input type = "radio" id = "mc" name = "question5" value = "m">"Soft but sturdy"<br>
+<input type = "radio" id = "mc" name = "question5" value = "j">"Tough and tenacious"<br>
+<input type = "radio" id = "mc" name = "question5" value = "d">"Beauty with brilliance"<br>
+<input type = "radio" id = "mc" name = "question5" value = "l">"Loyal, yet lethal"<br>
+<input type = "radio" id = "mc" name = "question5" value = "r">"Hot and Headstrong"<br>
+
+
+<div id="result"></div> 
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+
+
+</body>
+
+
+
